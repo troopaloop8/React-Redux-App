@@ -1,3 +1,80 @@
 .section {
-    margin: 10px;
+    margin: 10px auto 10px;
+    max-width: 800px;
 }
+
+.img-box {
+    height: 200px;
+    text-align: center;
+}
+
+html, body {
+    height: 100%;
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    background-size: 200% 200%;
+    // -webkit-animation: Gradient 350s ease 100;
+    // -moz-animation: Gradient 350s ease 100;
+    // animation: Gradient 350s ease 100;
+    }
+  
+  
+  @-webkit-keyframes Gradient {
+    0% {
+    background-position: 0% 50%
+    }
+  50% {
+  background-position: 100% 50%
+  }
+  100% {
+  background-position: 0% 50%
+  }
+  }
+  
+  @-moz-keyframes Gradient {
+    0% {
+    background-position: 0% 50%
+    }
+  50% {
+  background-position: 100% 50%
+  }
+  100% {
+  background-position: 0% 50%
+  }
+  }
+  
+  @keyframes Gradient {
+    0% {
+    background-position: 0% 50%
+    }
+  50% {
+  background-position: 100% 50%
+  }
+  100% {
+  background-position: 0% 50%
+  }
+  }
+
+div.dino-img {
+    margin: 0 auto;
+    max-width: 700px;
+    max-height: 700px;
+    border-radius: 5px;
+}
+
+.container {
+    padding-left: 40px;
+}
+
+.yys-btn {
+
+      width: 20px;
+      height: 20px;
+      outline: none;
+      background: yellow;
+      border-radius: 6px
+    
+  }
+
+  .space-right {
+      margin-right: 20px;
+  }
